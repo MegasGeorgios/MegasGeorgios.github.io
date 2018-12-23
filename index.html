@@ -24,16 +24,6 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="assets/bxslider/jquery.bxslider.min.js"></script>
 
-  <script>
-  $('.bxslider').bxSlider({
-    auto: true,
-    autoControls: true,
-    stopAutoOnClick: true,
-    pager: true,
-    slideWidth: 600
-  });
-  </script>
-
   <style media="screen">
     .avatar {
     vertical-align: middle;
@@ -50,14 +40,12 @@
     margin-top: 250px;
   }
 
-  .img_certificados_responsivas{
-    height: auto;
-    width:50%;
-    margin-right: auto;
-    margin-left: auto;
+  .bx-wrapper{
+    width: 80%;
+    margin: 0 auto;
   }
 
-  @media (max-width: 767px) {
+  /* @media (max-width: 767px) {
     .center{
       margin-top: 0;
     }
@@ -65,7 +53,7 @@
       height: 300px;
       width:100%;
     }
-  }
+  } */
   </style>
 
 </head>
@@ -287,7 +275,15 @@
     </div>
   </section>
 
-
+  <script>
+  $('.bxslider').bxSlider({
+    auto: true,
+    autoControls: true,
+    stopAutoOnClick: true,
+    pager: true,
+    slideWidth: 600
+  });
+  </script>
   <script src="assets/web/assets/jquery/jquery.min.js"></script>
   <script src="assets/tether/tether.min.js"></script>
   <script src="assets/bootstrap/js/bootstrap.min.js"></script>
