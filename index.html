@@ -20,6 +20,18 @@
   <link rel="stylesheet" href="assets/dropdown/css/style.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+  <link rel="stylesheet" href="assets/bxslider/jquery.bxslider.css">
+  <script src="assets/bxslider/jquery.bxslider.min.js"></script>
+
+  <script>
+  jQuery('.bxslider').bxSlider({
+    auto: true,
+    autoControls: true,
+    stopAutoOnClick: true,
+    pager: true,
+    slideWidth: 600
+  });
+  </script>
 
   <style media="screen">
     .avatar {
@@ -237,19 +249,13 @@
         </div>
       </div>
     </div>
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img class="d-block w-100 img_certificados_responsivas"  src="assets/images/UC-74P99SUR.jpg" alt="Certificado Udemy Laravel VueJS">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100 img_certificados_responsivas" src="assets/images/UC-7AIP5XZM.jpg" alt="Certificado Udemy WordPress">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100 img_certificados_responsivas" src="assets/images/UC-HAF4Z319.jpg" alt="Certificado Udemy WordPress">
-        </div>
-      </div>
+
+    <div class="bxslider">
+      <div><img src="assets/images/UC-74P99SUR.jpg"></div>
+      <div><img src="assets/images/UC-7AIP5XZM.jpg"></div>
+      <div><img src="assets/images/UC-HAF4Z319.jpg"></div>
     </div>
+    
   </section>
 
 
